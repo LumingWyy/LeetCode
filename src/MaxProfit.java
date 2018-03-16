@@ -10,7 +10,7 @@ Best Time to Buy and Sell Stock II
 
 public class MaxProfit {
     public static void main(String[] args) {
-        int nums[] = {1, 1, 2};
+        int nums[] = {1, 1, 2, 6, 7, 9};
         int result;
         result = Solution.maxProfit(nums);
         System.out.println(result);
@@ -19,6 +19,9 @@ public class MaxProfit {
     //my way
     static class Solution {
         static public int maxProfit(int[] prices) {
+            if (prices == null || prices.length == 0) {
+                return 0;
+            }
             int profit;
             int maxProf = 0;
             for (int i = 1; i < prices.length; i++) {

@@ -34,7 +34,7 @@ public class CountAndSay {
                         cnt = 1;
                     }
                 }
-                tmp.append(cnt).append(s.charAt(s.lengfgfggfth() - 1));
+                tmp.append(cnt).append(s.charAt(s.length() - 1));
                 s = tmp.toString();
             }
 

@@ -1,15 +1,15 @@
 
 /*LeetCode
 day22 #206.
- */
-Reverse Linked List
-        */
-        DescriptionHintsSubmissionsDiscussSolution
 
+Reverse Linked List
         Reverse a singly linked list.*/
 
 
 //  Definition for singly-linked list.
+class ReverseList {
+
+
 public class ListNode {
     int val;
     ListNode next;

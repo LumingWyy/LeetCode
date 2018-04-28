@@ -9,7 +9,7 @@
         [1,2,3],   [1,2,3]
         Output: true*/
 
-public class IsSumTree {
+public class IsSameTree {
 
     //Definition for a binary tree node.
     public class TreeNode {

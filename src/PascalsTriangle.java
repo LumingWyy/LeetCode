@@ -13,6 +13,7 @@ day44 #118. Pascal's Triangle
         [1,3,3,1],
         [1,4,6,4,1]*/
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class PascalsTriangle {

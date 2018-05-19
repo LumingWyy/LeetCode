@@ -5,7 +5,7 @@ day9 #36
 
 */
 
-public class ValidSudoku {
+/*public class ValidSudoku {
     class Solution {
         public boolean isValidSudoku(char[][] board) {
             for (int i = 0; i < 9; i++) {
@@ -33,4 +33,4 @@ public class ValidSudoku {
         }
     }
 }
-}
+}*/
